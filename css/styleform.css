@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+h1{
+    text-align: center;
+}
+h4 {
+    text-align: left;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.input input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+}
+
+.button button {
+    padding: 10px 20px;
+    background-color: #2883a7;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button button:hover {
+    background-color: #213088;
+}
+
+.resultado {
+    margin-top: 10px;
+}
+
+.resultado .label {
+    margin-bottom: 5px;
+}
+
+.resultado .res input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #d1d3d6;
+    border-radius: 4px;
+    background-color: #e9ecef;
+    font-size: 16px;
+}
+
+.resultado .dni, .resultado .nombre, .resultado .apellido, .resultado .cui {
+    margin-bottom: 1px;
+}

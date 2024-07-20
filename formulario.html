@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Document</title>
+    <link href="css/styleform.css" rel="stylesheet" />
+</head>
+
+<body>
+    <section>
+        <h1>GENERE SU CITA</h1>
+        <div class="container">
+            <div class="input">
+                <input class="dni" id="dni" name="dni" placeholder="Número de DNI" type="number">
+            </div>
+            <div class="button">
+                <button id="boton">INGRESAR</button>
+            </div>
+        </div>
+        <div class="resultado">
+            <div class="dni">
+                <div class="label">
+                    <h4>DNI</h4>
+                </div>
+                <div class="res">
+                    <input id="doc" readonly="" type="text">
+                </div>
+            </div>
+            <div class="nombre">
+                <div class="label">
+                    <h4>NOMBRE</h4>
+                </div>
+                <div class="res">
+                    <input id="nombre" readonly="" type="text">
+                </div>
+            </div>
+            <div class="apellido">
+                <div class="label">
+                    <h4>APELLIDO</h4>
+                </div>
+                <div class="res">
+                    <input id="apellido" readonly="" type="text">
+                </div>
+            </div>
+            <div class="correo">
+                <div class="label">
+                    <h4>CORREO</h4>
+                </div>
+                <div class="res">
+                    <input id="correo" type="text">
+                </div>
+            </div>
+            <div class="medico">
+                <div class="label">
+                    <h4>MEDICO</h4>
+                    <select>
+                        <option>DR. CESAR MIRANDA</option>
+                        <option>DRA. FANNY PONCE</option>
+                        <option>DR. PABLO FERNANDEZ</option>
+                        <option>DRA. CARLA PALOMINO</option>
+                    </select>
+                </div>
+            </div>
+            <div class="fecha">
+                <div class="label">
+                    <h4>FECHA</h4>
+                </div>
+                <div class="res">
+                    <input id="fecha" type="date">
+                </div>
+            </div>
+            <br>
+            <div class="button">
+                <button id="generarCita">
+                    <a href="index.html">GENERAR CITA</a>
+                </button>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+
+</html>
+
